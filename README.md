@@ -85,6 +85,20 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+# How to Use
+
+Open Postman or any API testing tool and make a POST request to the following endpoint
+
+```bash
+POST http://localhost:3001/api/v1/auth/login
+```
+
+After that, you can setup frontend project by following the instructions in the [DOT Frontend Repository]
+
+```text
+https://github.com/NaufalFadhil/DOT_Frontend
+```
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
